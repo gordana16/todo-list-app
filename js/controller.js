@@ -159,10 +159,10 @@
    */
   Controller.prototype.removeItem = function(id) {
     var self = this;
-    var items;
-    self.model.read(function(data) {
-      items = data;
-    });
+    // var items;
+    // self.model.read(function(data) {
+    //   items = data;
+    // });
 
     //commented out because loop is only used for logging
     // items.forEach(function(item) {
